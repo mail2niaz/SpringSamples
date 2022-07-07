@@ -1,0 +1,1 @@
+INSERT INTO country (id, firstname, lastname) VALUES (20,'lolo1','lolo2'); commit;
