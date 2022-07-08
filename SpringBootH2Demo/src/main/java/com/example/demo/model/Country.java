@@ -14,6 +14,14 @@ public class Country {
 
     private String lastname;
 
+    public Country() {
+    }
+
+    public Country(String firstname, String lastname) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
+
     public int getId() {
         return id;
     }
